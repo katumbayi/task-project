@@ -12,10 +12,6 @@ public class unix {
 
         this.lamar = lamar;
     }
-    public int getPlame(){
-
-        return plame;
-    }
     public String getLamar(){
 
         return lamar;
