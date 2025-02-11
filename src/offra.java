@@ -1,10 +1,10 @@
 public class offra {
     private static int uni;
-    private static int over;
+    private static int over=35;
     private String dan;
 
     static{
-        uni = 200;
+        uni = 400000;
         System.out.println("Static block executed.uni initialized " + uni);
     }
 
