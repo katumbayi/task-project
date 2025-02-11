@@ -22,7 +22,7 @@ public class school{
     public void displayschools(){
         System.out.println("School List:");
         for(school s: schools){
-            System.out.println(s);
+            System.out.println("number of schools in the district");
         }
     }
     }
