@@ -9,13 +9,7 @@ public class school{
     public String getDirect(){
         return Direct;
     }
-}
-    class Student{
-    private List<school>schools;
-
-    public Student(){
-        schools = new ArrayList<>();
-    }
+    
     public void addSchool(school s){
         schools.add(s);
     }
