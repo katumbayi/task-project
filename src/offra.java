@@ -11,7 +11,7 @@ public class offra {
     public offra(String dan){
         this.dan = dan;
 
-        over++;
+        over--;
     }
     public static int getUni(){
         return uni;
