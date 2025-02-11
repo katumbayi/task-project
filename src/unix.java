@@ -7,6 +7,7 @@ public class unix {
 
     {
         plame = frank.incrementAndGet();
+
     }
     public unix(String lamar){
 
