@@ -6,7 +6,10 @@ public class entriprise {
     String department;
 
     public entriprise(String name, int account, String department,double remuration) {
-        
+        this.name = name;
+        this.account = account;
+        this.department = department;
+        this.remuration = remuration;
 
     }
     public double getRemuration() {
