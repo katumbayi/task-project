@@ -1,13 +1,13 @@
 public class entriprise {
 
-    public String exaucee;
-    int amount;
-    private double remuration;
+    public String name;
+    int account;
+    private  double remuration;
     String department;
 
-    public entriprise(String exaucee, int manager, String department, double remuration) {
-        this.exaucee = exaucee;
-        this.amount = manager;
+    public entriprise(String name, int account, String department,double remuration) {
+        this.name = name;
+        this.account = account;
         this.department = department;
         this.remuration = remuration;
 
@@ -19,8 +19,8 @@ public class entriprise {
         System.out.println("remuration: " + remuration);
     }
     public void display() {
-        System.out.println("exaucee: " + exaucee);
-        System.out.println("manager: " + amount);
+        System.out.println("exaucee: " + name);
+        System.out.println("account: " + account);
         System.out.println("department: " + department);
         displayRemuration();
     }
