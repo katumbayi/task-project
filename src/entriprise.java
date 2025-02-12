@@ -19,7 +19,7 @@ public class entriprise {
         System.out.println("remuration: " + remuration);
     }
     public void display() {
-        System.out.println("exaucee: " + name);
+        System.out.println("name: " + name);
         System.out.println("account: " + account);
         System.out.println("department: " + department);
         displayRemuration();
