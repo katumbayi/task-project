@@ -12,6 +12,6 @@ public class governmentworkers {
         System.out.println("Age: " + age);
     }
 }
-class ministerworkers extends governmentworkers {}
+
 
 
