@@ -1,6 +1,6 @@
 public class governmentworkers {
-    String name;
-    int age;
+     String name;
+     int age;
 
     public governmentworkers(String name, int age) {
         this.name = name;
@@ -11,5 +11,7 @@ public class governmentworkers {
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
     }
-
 }
+class ministerworkers extends governmentworkers {}
+
+
