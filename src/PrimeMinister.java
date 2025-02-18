@@ -8,6 +8,6 @@ public class PrimeMinister extends MinisterOfEconomy {
 
     public void display() {
         super.display();
-        System.out.println( "Term: " + term + "years old" );
+        System.out.println( "Term: " + term + "Term" );
     }
 }
