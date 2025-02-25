@@ -12,8 +12,6 @@ public class generationBeta {
         beta.printinfo();
 
         // Runtime polymorphism
-        gen.printinfo();
-        beta.printinfo();
 
     }
 }
