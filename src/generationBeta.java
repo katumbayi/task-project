@@ -8,7 +8,10 @@ public class generationBeta {
         beta.information();
 
         //Overloading Method
-        gen.
+        gen.printinfo();
+        beta.printinfo();
+
+        // 
 
     }
 }
