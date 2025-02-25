@@ -1,7 +1,7 @@
 public class car {
     private String model;
-    public car(String shape){
-        this.model = shape;
+    public car(String size){
+        this.model = size;
     }
 
     public String getModel() {
