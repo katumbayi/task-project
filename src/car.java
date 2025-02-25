@@ -8,6 +8,6 @@ public class car {
         return size;
     }
     public final void size(){
-        System.out.println("This is the new model"+size);
+        System.out.println("This is the new model Toyota");
     }
 }
