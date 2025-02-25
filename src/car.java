@@ -1,13 +1,13 @@
 public class car {
-    private String model;
+    private String toyota;
     public car(String size){
-        this.model = size;
+        this.toyota = size;
     }
 
     public String getModel() {
-        return model;
+        return toyota;
     }
-    public final void shape(){
-        System.out.println("This is the new model");
+    public final void size(){
+        System.out.println("This is the new model"+toyota);
     }
 }
