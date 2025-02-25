@@ -1,13 +1,13 @@
 public class car {
-    private String toyota;
+    private String size;
     public car(String size){
-        this.toyota = size;
+        this.size= size;
     }
 
     public String getModel() {
-        return toyota;
+        return size;
     }
     public final void size(){
-        System.out.println("This is the new model"+toyota);
+        System.out.println("This is the new model"+size);
     }
 }
