@@ -6,7 +6,7 @@ public class generation {
             System.out.println("print default information");
 
         }
-        public void printinfo(String announcement){
+        public void printinfo2(String announcement){
             System.out.println("print default information2"+ announcement);
         }
 }
