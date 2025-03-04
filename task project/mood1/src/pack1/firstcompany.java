@@ -1,4 +1,4 @@
-package Company;
+package pack1;
 
 public class firstcompany {
     String name;
