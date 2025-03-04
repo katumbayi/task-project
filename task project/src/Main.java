@@ -5,5 +5,8 @@ public class Main {
 
         firstcompany xo = new firstcompany("Play Station 5");
         secondcompany xoxo = new secondcompany(2000000);
+
+        System.out.println("play Station 5");
+        System.out.println("2 000 000$ ");
     }
 }
