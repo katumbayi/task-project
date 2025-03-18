@@ -4,7 +4,7 @@ public class Main {
         projectwork cd = new team("IT protection" ,50,324);
         projectwork cd1 = new product("Networking", 60, 100);
 
-        //Display details
+
 
     }
 }
