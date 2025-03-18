@@ -1,7 +1,7 @@
 public abstract class projectwork {
     //common attribute
-    protected String name;
-    protected int number;
+    public String name;
+    public int number;
 
     //constructor to initialize common attribute
     public projectwork(String name,int number) {
