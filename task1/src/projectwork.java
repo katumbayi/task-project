@@ -13,7 +13,7 @@ public abstract class projectwork {
 
         //compute the value
         public int computerValue(int parameter){
-            return
+            return number * parameter;
         }
     }
 }
