@@ -1,5 +1,5 @@
 public class team extends projectwork{
-    public int id;
+    private int id;
 
     public team(String name, int number,int id ){
      super(name,number);
