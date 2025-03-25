@@ -9,7 +9,7 @@ public class StartProject {
         if (fromCurrencyRate.equals("EUR") && ToCurrencyRate.equals("USD")) {
             return 1.18;
         }
-        if (fromCurrencyRate.equals("USA") && ToCurrencyRate.equals("GBP")) {
+        if (fromCurrencyRate.equals("USD") && ToCurrencyRate.equals("GBP")) {
             return 0.75;
         }
         if (fromCurrencyRate.equals("FC") && ToCurrencyRate.equals("USD")) {
@@ -17,5 +17,6 @@ public class StartProject {
 
         }
 
+        return 0;
     }
 }
