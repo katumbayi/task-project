@@ -11,9 +11,6 @@ public abstract class projectwork {
         //Abstract method to display details
         public abstract void displayDetails();
 
-        //concrete method to computer value
-        public int objec(int parameter){
-            return number*parameter;
-        }
+
 
 }
