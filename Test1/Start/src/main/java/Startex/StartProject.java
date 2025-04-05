@@ -1,7 +1,7 @@
 package Startex;
 
 public class StartProject {
-    public double getRate(String fromCurrencyRate, String ToCurrencyRate){
+    public double displayRate(String fromCurrencyRate, String ToCurrencyRate){
 
         if (fromCurrencyRate.equals("UGX") && ToCurrencyRate.equals("USD")) {
             return 3.657;

@@ -1,14 +1,27 @@
 package Startex1;
-import
+import  Startex.StartProject;
 public class CurrencyProject {
-    private StartProject;
+    String StartProject;
+    double ItermPrice;
 
-    public CurrencyProject(StartProject){
-        this.StartProject= Startproject;
+    public CurrencyProject(String StartProject, double ItermPrice) {
+        this.StartProject = StartProject;
+        this.ItermPrice = ItermPrice;
 
     }
-    public double convert(double amount,String fromCurrencyRate,String toCurrencyRate){
-        double rate= StartProject.getRate(fromCurrencyRate,toCurrencyRate);
-        return amount * rate;
+
+    public double GetItermCost(int numberOfIterm) {
+        double cost = ItermPrice * numberOfIterm;
+        return cost;
     }
+
+    public double conert(double ItermPrice, String fromCurrencyRate, String toCurrencyRate) {
+        double Currentrate = CurrencyProject.displayRate(fromCurrencyRate, toCurrencyRate, ItermPrice);
+        return ItermPrice * Currentrate;
+    }
+
+    public static double displayRate(String fromCurrencyRate, String toCurrencyRate, double itermPrice) {
+        return 0;
+    }
+
 }
