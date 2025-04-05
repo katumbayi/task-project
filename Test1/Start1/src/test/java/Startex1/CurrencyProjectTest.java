@@ -3,23 +3,19 @@ package Startex1;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class CurrencyProjectTest {
 
-    @Test
-    void convert() {
-
-    }
-
     @BeforeEach
     void setUp() {
-        CPJ  = new CurrencyProject();
+
     }
 
     @Test
     void getItermCost() {
-        double Currentrate  = CurrencyProject.displayRate(int numberOfIterm);
+        double price = 50000;
+        assertEquals(price,getItermCost(30000);
 
     }
 
