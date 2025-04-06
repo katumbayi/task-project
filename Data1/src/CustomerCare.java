@@ -1,11 +1,11 @@
 public class CustomerCare {
-   private Service service;
+   private String service;
 
-   public CustomerCare(Service service){
+   public CustomerCare(String service){
        this.service = service;
    }
    public void processInformation(){
-        String information = service.Hospital("Doctor");
+        String information = service;
         System.out.println("information:"+ information);
    }
 }
