@@ -1,5 +1,5 @@
 public class CustomerCare {
-   private String service;
+   private final String service;
 
    public CustomerCare(String service){
        this.service = service;
