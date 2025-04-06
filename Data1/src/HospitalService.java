@@ -1,19 +1,19 @@
 public class HospitalService implements Service {
-    String Department;
-    int ID;
+    String department;
+    int id;
 
-    public HospitalService(String Department, int ID) {
-        this.Department = Department;
-        this.ID = ID;
+    public HospitalService(String department, int id) {
+        this.department = department;
+        this.id = id;
     }
 
     public String Service(String source) {
         return "HospitalService";
     }
 
-    public class HospitalService2 implements Service {
-        public String Service(String Source) {
-            return "HospitalService2";
-        }
+
+    @Override
+    public String Hospital(String source) {
+        return "";
     }
 }
